@@ -6,7 +6,7 @@ const Restaurant = ({restaurant, getRestaurants}) => {
 
     const deleteRestaurant = async(id) => {
         try{
-            await axios.delete(`http://localhost:3000/api/restaurants/${id}`);
+            await axios.delete(`https://restaurant-crud-mern.onrender.com/api/restaurants/${id}`);
             toast.success("Deleted restaurant successfully");
             getRestaurants();
         } catch(error){

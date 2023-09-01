@@ -11,7 +11,7 @@ const HomePage = () => {
     const getRestaurants = async () => {
         try {
             setIsLoading(true);
-            const response = await axios.get(`http://localhost:3000/api/restaurants`);
+            const response = await axios.get(`https://restaurant-crud-mern.onrender.com/api/restaurants`);
             console.log(response.data);
             setRestaurants(response.data);
             setIsLoading(false);
