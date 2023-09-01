@@ -22,5 +22,11 @@ The included .env_sample file is a template for your .env file; please update wi
 To run frontend: navigate to react-frontend/react-frontend within the project folder and run "npm run dev" in command line.
 To run backend: navigate to main project folder and run "npm run dev" in command line.
 
+LESSONS LEARNED:
+This was my first project using React framework and Tailwind for designing the frontend. I had to learn from github user devtamin's NodeAPIV2 instructions to be able to create this project. This project helepd me to gain a better understanding of MVC architecture and how frontend and backend fit together.
+
+ROOM FOR IMPROVEMENT:
+Future directions would be to style the restaurant cards into more of a table format. I would also like to extend the backend side of this project to incorporate public APIs with restaurant reviews.
+
 CREDITS:
-Credit to devtamin's github as a reference for learning how to write react code.
+Credit to devtamin's github as a reference for learning how to write React code and as a general template.
