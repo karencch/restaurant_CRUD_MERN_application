@@ -14,6 +14,7 @@ BUILT WITH:
 - Node.js
 - Vite
 - Tailwind
+- Postman (to test my API's functionality)
 
 INSTALLATION/USAGE:
 Install npm in command line (npm install -g npm).
@@ -23,7 +24,7 @@ To run frontend: navigate to react-frontend/react-frontend within the project fo
 To run backend: navigate to main project folder and run "npm run dev" in command line.
 
 LESSONS LEARNED:
-This was my first project using React framework and Tailwind for designing the frontend. I had to learn from github user devtamin's NodeAPIV2 instructions to be able to create this project. This project helepd me to gain a better understanding of MVC architecture and how frontend and backend fit together.
+This was my first project using React framework and Tailwind for designing the frontend. I had to learn from github user devtamin's NodeAPIV2 instructions to be able to create this project. This project helepd me to gain a better understanding of MVC architecture and how frontend and backend fit together. I got a much better understanding of how to use Postman in this project.
 
 ROOM FOR IMPROVEMENT:
 Future directions would be to style the restaurant cards into more of a table format. I would also like to extend the backend side of this project to incorporate public APIs with restaurant reviews.
