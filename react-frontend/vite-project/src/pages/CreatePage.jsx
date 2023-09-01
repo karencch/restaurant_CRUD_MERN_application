@@ -20,7 +20,7 @@ const CreatePage = () => {
         }
         try{
             setIsLoading(true);
-            const response = await axios.post("https://restaurant-crud-mern.onrender.com/api/restaurants",{name: name, rating: rating, cuisine: cuisine});
+            const response = await axios.post("http://localhost:3000/api/restaurants",{name: name, rating: rating, cuisine: cuisine});
             toast.success(`Saved ${response.data.name} successfully`);
             setIsLoading(false);
             navigate("/");

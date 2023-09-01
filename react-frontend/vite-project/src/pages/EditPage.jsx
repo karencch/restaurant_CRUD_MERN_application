@@ -16,7 +16,7 @@ const EditPage = () => {
     const getRestaurant = async () => {
         setIsLoading(true);
         try{
-            const response = await axios.get(`https://restaurant-crud-mern.onrender.com/api/restaurants/${id}`);
+            const response = await axios.get(`http://localhost:3000/api/restaurants/${id}`);
             setRestaurant({
                 name: response.data.name,
                 rating: response.data.rating,
@@ -35,7 +35,7 @@ const EditPage = () => {
         e.preventDefault();
         setIsLoading(true);
         try{
-            await axios.put(`https://restaurant-crud-mern.onrender.com/api/restaurants/${id}`, restaurant);
+            await axios.put(`http://localhost:3000/api/restaurants/${id}`, restaurant);
             toast.success("Updated restaurant successfully");
             navigate(`/`);
         } catch(error){
